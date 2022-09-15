@@ -1,8 +1,14 @@
 # Daily-Doozy
-Multi-choice quiz app using Kotlin Clean Architecture, Jetpack Compose, Retrofit2, Hilt
+Multi-choice quiz app using Kotlin. Source of questions is the free-to-use API https://the-trivia-api.com/
 
-Source of questions is the free-to-use API https://the-trivia-api.com/
-
+## Main Features
+1. Kotlin
+1. Clean Architecture
+1. Jetpack Compose
+1. Retrofit2
+1. Hilt
+1. Unit + instrumented testing
+ 
 ## Demo
 
 <img src="https://user-images.githubusercontent.com/9675246/184323065-c2b998e7-de7e-493b-9fd9-7233a215a5c7.gif" width="25%" height="25%"/>
