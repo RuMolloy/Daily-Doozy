@@ -70,8 +70,6 @@ fun ShowQuiz(
                     .padding(8.dp)
             ) {
                 for (answer in question.allAnswers) {
-                    println("answer -> $answer")
-                    Log.d("answer", answer)
                     val colorBackground =
                         if (viewModel.userSelectedAnswer.value.equals(answer)) {
                             Color.White
