@@ -1,5 +1,6 @@
 package com.molloyruaidhri.dailydoozy.ui.components
 
+import android.util.Log
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -69,6 +70,8 @@ fun ShowQuiz(
                     .padding(8.dp)
             ) {
                 for (answer in question.allAnswers) {
+                    println("answer -> $answer")
+                    Log.d("answer", answer)
                     val colorBackground =
                         if (viewModel.userSelectedAnswer.value.equals(answer)) {
                             Color.White
