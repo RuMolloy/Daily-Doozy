@@ -14,6 +14,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -76,7 +77,8 @@ fun LoadingQuestion() {
                     .fillMaxWidth()
                     .weight(2f)
                     .padding(8.dp)
-                    .border(BorderStroke(1.dp, Color.Black)),
+                    .border(BorderStroke(1.dp, Color.Black))
+                    .testTag("Question Placeholder"),
                 elevation = 8.dp
             ) {
                 Column(
@@ -101,7 +103,8 @@ fun LoadingQuestion() {
                     Surface(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(60.dp),
+                            .height(60.dp)
+                            .testTag("Answer Placeholder"),
                         shape = RoundedCornerShape(20.dp),
                         border = BorderStroke(1.dp, Color.DarkGray),
                     ) {

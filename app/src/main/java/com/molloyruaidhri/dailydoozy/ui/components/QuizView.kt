@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -44,14 +45,16 @@ fun ShowQuiz(
                 , elevation = 8.dp
             ) {
                 Column(
-                    modifier = Modifier.padding(16.dp),
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .testTag("Question"),
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
                         text = it.question,
                         style = MaterialTheme.typography.h5,
-                        textAlign = TextAlign.Center
+                        textAlign = TextAlign.Center,
                     )
                 }
             }
@@ -74,7 +77,8 @@ fun ShowQuiz(
                     Button(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(60.dp),
+                            .height(60.dp)
+                            .testTag("Answer"),
                         border = BorderStroke(1.dp, viewModel.getBorderColor(answer)),
                         shape = RoundedCornerShape(20.dp),
                         colors = ButtonDefaults.buttonColors(backgroundColor = colorBackground),
