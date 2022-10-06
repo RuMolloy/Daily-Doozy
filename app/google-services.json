@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580317625107",
+    "project_id": "daily-doozy",
+    "storage_bucket": "daily-doozy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580317625107:android:22e32766a71445dc66f8e6",
+        "android_client_info": {
+          "package_name": "com.molloyruaidhri.dailydoozy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580317625107-7f0p3ut9s1uomqer5vbku00ddsf4ms3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2HeytSTQdUFTtbnjSyF0ve0636zTDLow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580317625107-7f0p3ut9s1uomqer5vbku00ddsf4ms3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
