@@ -117,3 +117,5 @@ dependencies {
     androidTestImplementation "io.mockk:mockk-android:1.10.5"
     androidTestImplementation 'androidx.test:runner:1.4.0'
 }
+
+apply plugin: 'com.google.gms.google-services'
