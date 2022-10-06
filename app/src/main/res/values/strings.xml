@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Daily Doozy</string>
     <string name="api_url">https://the-trivia-api.com/api/questions/</string>
+    <string name="temp">place holder to test bitrise trigger</string>
 </resources>
