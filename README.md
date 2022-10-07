@@ -1,5 +1,5 @@
 # Daily-Doozy
-Multi-choice quiz app using Kotlin. Source of questions is the free-to-use API https://the-trivia-api.com/
+Multi-choice quiz app using Kotlin (available [here](https://play.google.com/store/apps/details?id=com.molloyruaidhri.dailydoozy) on Google Play Store). Source of questions is the free-to-use API https://the-trivia-api.com/
 
 ## Main Features
 1. Kotlin
@@ -8,6 +8,7 @@ Multi-choice quiz app using Kotlin. Source of questions is the free-to-use API h
 1. Retrofit2
 1. Hilt
 1. Unit + instrumented testing
+1. Bitrise CI/CD
  
 ## Demo
 
