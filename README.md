@@ -1,5 +1,8 @@
 # Daily-Doozy
-Multi-choice quiz app using Kotlin (available [here](https://play.google.com/store/apps/details?id=com.molloyruaidhri.dailydoozy) on Google Play Store). Source of questions is the free-to-use API https://the-trivia-api.com/
+Multi-choice quiz app using Kotlin. Source of questions is the free-to-use API https://the-trivia-api.com/
+
+[![Build Status](https://app.bitrise.io/app/5d9840d52707f066/status.svg?token=hLJl89BwXzbjF44gIizTEw&branch=main)](https://app.bitrise.io/app/5d9840d52707f066)
+[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.molloyruaidhri.dailydoozy)
 
 ## Main Features
 1. Kotlin
